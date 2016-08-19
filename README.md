@@ -6,6 +6,13 @@ __An easy way to configure the  color schemes of guake__.
 
 Note that, all themes  are cited from the awesome repository [Gogh](https://github.com/Mayccoll/Gogh), and you can preview all  themes [here](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md). Unfortunately, it seems not to provide an interface for guake. Inspired by another repository [guake-color-palettes](https://github.com/coolwanglu/guake-colors-solarized), this repository provides an easy way to configure  the color schemes of guake. 
 
+<br/>
+
+![themes](https://github.com/ziyenano/Guake-Color-Schemes/blob/master/images/themes.gif)
+
+-------------
+
+<br/>
 
 ### Usage
 
