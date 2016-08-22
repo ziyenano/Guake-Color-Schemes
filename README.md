@@ -4,7 +4,7 @@
 
 __An easy way to configure the  color schemes of guake__.
 
-Note that, all themes  are cited from the awesome repository [Gogh](https://github.com/Mayccoll/Gogh), and you can preview all  themes [here](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md). Unfortunately, it seems not to provide an interface for guake. Inspired by another repository [guake-color-palettes](https://github.com/coolwanglu/guake-colors-solarized), this repository provides an easy way to configure  the color schemes of guake. 
+Note that, all themes  are cited from the awesome repository [Gogh](https://github.com/Mayccoll/Gogh), and you can preview all  themes [here](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md). Unfortunately, it seems not to provide an interface for guake. Inspired by [guake-color-palettes](https://github.com/coolwanglu/guake-colors-solarized), this repository provides an easy way to configure  the color schemes of guake. 
 
 <br/>
 
@@ -40,7 +40,7 @@ to set the corresponding theme, e.g., __./guake_theme.sh tin__ setting the tin t
 
 ### Browser Mode (Suggested)
 
-Inspired by [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes), we also provide a more convenient approach. 
+Inspired by [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes), it also provides a more convenient approach. 
 
 Type the following command in your guake terminal,
 
@@ -51,5 +51,6 @@ then click keys <kbd>p</kbd> / <kbd>n</kbd> for browsing the _previous_ / _next_
 
 
 ###Note
-It has been validated on Ubuntu and Linux Mint platforms. If you test it on other platforms, please tell me by creating an issue.
+* It has been validated on Ubuntu and Linux Mint platforms. 
+* If you test it on other platforms, please tell me by creating an issue.
 
