@@ -47,10 +47,9 @@ Type the following command in your guake terminal,
 ```
 ./browser_guake_theme.sh
 ```
-then click keys ___p___, ___n___ for browsing _previous / next_ theme and click key ___y___ for choosing the theme you perfer.
+then click keys <kbd>p</kbd> / <kbd>n</kbd> for browsing the _previous_ / _next_ theme and click key <kbd>y</kbd> for choosing the theme you perfer.
 
 
 ###Note
-* Scripts are just validated on Ubuntu platform, thus, there is no gurantee on other platforms.
-
+It has been validated on Ubuntu and Linux Mint platforms. If you test it on other platforms, please tell me by creating an issue.
 
