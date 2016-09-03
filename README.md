@@ -4,7 +4,7 @@
 
 __An easy way to configure the  color schemes of guake__.
 
-Note that, all themes  are cited from the awesome repository [Gogh](https://github.com/Mayccoll/Gogh), and you can preview all  themes [here](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md). Unfortunately, it seems not to provide an interface for guake. Inspired by [guake-color-palettes](https://github.com/coolwanglu/guake-colors-solarized), this repository provides an easy way to configure  the color schemes of guake. 
+Note that, all themes  are cited from the awesome repository [Gogh](https://github.com/Mayccoll/Gogh), and you can preview all  themes [here](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md). Unfortunately, it seems not to provide an interface for guake. Inspired by [guake-color-palettes](https://github.com/coolwanglu/guake-colors-solarized) and [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes), this repository provides an easy way to configure  the color schemes of guake. 
 
 <br/>
 
@@ -21,7 +21,7 @@ git clone https://github.com/ziyenano/Guake-Color-Schemes.git
 ```
 enter the directory 
 ```
-chmod a+x  guake_theme.sh  browser_guake_theme.sh
+chmod u+x  guake_theme.sh  browser_guake_theme.sh
 ```
 
 
@@ -47,7 +47,7 @@ Type the following command in your guake terminal,
 ```
 ./browser_guake_theme.sh
 ```
-then click keys <kbd>p</kbd> / <kbd>n</kbd> for browsing the _previous_ / _next_ theme and click key <kbd>y</kbd> for choosing the theme you perfer.
+then press keys <kbd>p</kbd> / <kbd>n</kbd> for browsing the _previous_ / _next_ theme and press key <kbd>y</kbd> for choosing the theme you perfer.
 
 
 ###Note
