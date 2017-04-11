@@ -26,7 +26,7 @@ chmod u+x  guake_theme.sh  browser_guake_theme.sh
 ```
 
 
-#### Browser Mode (Suggested)
+#### Browser Mode (Recommended)
 
 Type the following command in your guake terminal,
 
@@ -51,6 +51,6 @@ to specify the corresponding theme, e.g., __./guake_theme.sh tin__ specifies the
 
 ### Note
 
-* It has been validated on Ubuntu and Linux Mint platforms. 
+* It has been validated on Ubuntu, Linux Mint and Antergos platforms. 
 * If you test it on other platforms, please tell me by creating an issue.
 
