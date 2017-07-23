@@ -33,7 +33,7 @@ Type the following command in your guake terminal,
 ```
 ./browser_guake_theme.sh
 ```
-then press keys <kbd>p</kbd> / <kbd>n</kbd> for browsing the _previous_ / _next_ theme and press key <kbd>y</kbd> for choosing the theme you perfer.
+then press keys <kbd>p</kbd> / <kbd>n</kbd> for browsing the _previous_ / _next_ theme and press key <kbd>y</kbd> for choosing the theme you prefer.
 
 #### General Mode
 
@@ -51,6 +51,6 @@ to specify the corresponding theme, e.g., __./guake_theme.sh tin__ specifies the
 
 ### Note
 
-* It has been validated on Ubuntu, Linux Mint and Antergos platforms. 
+* It has been validated on such platforms: Ubuntu, Linux Mint, Antergos, Solus. 
 * If you test it on other platforms, please tell me by creating an issue.
 
