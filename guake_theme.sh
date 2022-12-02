@@ -28,7 +28,7 @@ function color_repeat()
 
 
 palette=`color_repeat $COLOR_01`
-loc="02 03 04 05 06 07 08 09 10 11 12 13 14 15 16"
+loc="01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16"
 for i in $loc 
 do
     eval color=\$COLOR_$i
@@ -39,7 +39,12 @@ done
 BACKGROUND_COLOR=`color_repeat $BACKGROUND_COLOR`
 FOREGROUND_COLOR=`color_repeat $FOREGROUND_COLOR`
 
+palette=$palette:$BACKGROUND_COLOR:$FOREGROUND_COLOR
 
-gconftool-2 -s -t string /apps/guake/style/background/color $BACKGROUND_COLOR
-gconftool-2 -s -t string /apps/guake/style/font/color $FOREGROUND_COLOR
-gconftool-2 -s -t string /apps/guake/style/font/palette $palette
+#gconftool-2 -s -t string /apps/guake/style/background/color $BACKGROUND_COLOR
+#gconftool-2 -s -t string /apps/guake/style/font/color $FOREGROUND_COLOR
+#gconftool-2 -s -t string /apps/guake/style/font/palette $palette
+dconf write /apps/guake/style/background/color "'$BACKGROUND_COLOR'"
+dconf write /apps/guake/style/font/color "'$FOREGROUND_COLOR'"
+dconf write /apps/guake/style/font/palette "'$palette'"
+dconf write /apps/guake/style/font/palette-name "'$1'"
